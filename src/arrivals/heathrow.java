@@ -25,8 +25,8 @@ public class heathrow {
 		Thread.sleep(2000);
 		
 		
-		//driver.findElement(By.id("cookie-close-accept-all")).click();
-		driver.findElement(By.id("cookie-close")).click();
+		driver.findElement(By.id("cookie-close-accept-all")).click();
+		//driver.findElement(By.id("cookie-close")).click();
 		System.out.println("cookies close");
 		
 		Thread.sleep(2000);
