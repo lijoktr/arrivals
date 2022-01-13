@@ -18,23 +18,23 @@ public class heathrow {
 		driver.get("https://www.qatarairways.com/en-gb/homepage.html");
 		System.out.println(driver.getTitle());
 		
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 		
 		driver.manage().window().maximize();
 		
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 		
 		
 		//driver.findElement(By.id("cookie-close-accept-all")).click();
 		driver.findElement(By.id("cookie-close")).click();
 		System.out.println("cookies close");
 		
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 		
 		driver.findElement(By.id("flightstatus-tab")).click();
 		System.out.println("status tab");
 		
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 				
 		driver.findElement(By.id("flightStatusFrom")).sendKeys("Doha DOH",Keys.TAB, "LHR",Keys.TAB);
 		System.out.println("departure and arrival details entered");
